@@ -5,13 +5,13 @@ namespace Ostapovich\Radom;
 class Radom
 {
     protected string $apiToken;
-    protected $testMode;
+    protected $prodMode;
     protected $url = 'https://api.radom.com';
 
-    public function __construct($apiToken, $testMode = true)
+    public function __construct($apiToken, $prodMode = false)
     {
         $this->apiToken = $apiToken;
-        $this->testMode = $testMode;
+        $this->prodMode = $prodMode;
     }
 
     public function getPaymentMethods(): array
@@ -25,7 +25,7 @@ class Radom
             $network = trim(strip_tags($matches[1][$i]));
             $token = trim(strip_tags($matches[1][$i + 1]));
 
-            if ($this->testMode && strpos($network, 'Testnet') !== false) {
+            if ($this->prodMode && strpos($network, 'Testnet') !== false) {
                 continue;
             }
 
