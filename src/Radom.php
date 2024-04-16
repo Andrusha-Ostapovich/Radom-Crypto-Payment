@@ -1,6 +1,6 @@
 <?php
 
-namespace Ostapovich\Radom;
+namespace Ostapovich;
 
 class Radom
 {
