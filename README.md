@@ -125,7 +125,7 @@ composer require ostapovich/radom
 Для початку роботи ініціалізуйте об'єкт Radom з вашим API-токеном та вкажіть, чи бажаєте ви використовувати тестовий режим:
 
 ```php
-use Ostapovich\Radom\Radom;
+use Ostapovich\Radom;
 
 $apiToken = 'ваш_api_токен';
 $prodMode = false; // Встановіть false для тестового режиму (в тестовому режимі виводяться всі криптовалюти), true для режиму продукції
@@ -168,7 +168,7 @@ $paymentMethods = $radom->getPaymentMethods();
 Ось приклад того, як ви можете використовувати пакет криптовалютних платежів Radom у додатку на Laravel:
 
 ```php
-use Ostapovich\Radom\Radom;
+use Ostapovich\Radom;
 
 class PaymentController extends Controller
 {
