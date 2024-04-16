@@ -12,7 +12,7 @@ Radom is a leading platform for processing cryptocurrency payments, offering sec
 To install the Radom Crypto Payment Package, simply use Composer:
 
 ```bash
-composer require ostapovich/radom:"dev-main"
+composer require ostapovich/radom
 ```
 
 ## Usage
@@ -115,7 +115,7 @@ Radom є провідною платформою для обробки крип�
 Для встановлення пакету криптовалютних платежів Radom просто використовуйте Composer:
 
 ```bash
-composer require ostapovich/radom:"dev-main"
+composer require ostapovich/radom
 ```
 
 ## Використання
