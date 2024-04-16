@@ -22,7 +22,7 @@ composer require ostapovich/radom
 To get started, initialize the Radom object with your API token and specify whether you want to use the test mode:
 
 ```php
-use Ostapovich\Radom\Radom;
+use Ostapovich\Radom;
 
 $apiToken = 'your_api_token';
 $prodMode = false; // Set to false for test mode (all cryptocurrencies are displayed in the test mode), true for production mode
@@ -65,7 +65,7 @@ In addition to creating payment links, the Radom Crypto Payment Package also pro
 Here's an example of how you might use the Radom Crypto Payment Package in a Laravel application:
 
 ```php
-use Ostapovich\Radom\Radom;
+use Ostapovich\Radom;
 
 class PaymentController extends Controller
 {
