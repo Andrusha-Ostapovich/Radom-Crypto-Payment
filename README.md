@@ -1,5 +1,5 @@
 # Radom Crypto Payment Package
-![Stand With Ukraine](https://vitmark.com/wp-content/uploads/2022/02/MicrosoftTeams-image-30.png)
+![Stand With Ukraine](StandWithUkraine.png)
 
 ## Introduction
 
